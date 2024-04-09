@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header><h1>Predicting the Frequent Diseases in the Plants Using Image Processing<br>
+    Live in lab project</h1>
+    </header>
+  
+  <table>
+  <tr>
+     <td>    <div class="container"> 
+        <h2>UPLOAD TOMATO IMAGE</h2>
+      <img width="200px" src="https://cdn.britannica.com/16/187216-131-FB186228/tomatoes-tomato-plant-Fruit-vegetable.jpg" alt="">
+        <input type="file" id="tomatoInput"/>
+        <button onclick="tomato()">Predict Tomato Disease</button>
+        <h1 style="color: black;"    id="tomatoResult"></h1>
+        </div></td>
+        <td><div class="container"> 
+            <h2>UPLOAD POTATO IMAGE</h2>
+          <img width="200px" src="https://m.media-amazon.com/images/I/51lTK6iktYL._AC_UF1000,1000_QL80_.jpg" alt="">
+            <input type="file" id="potatoInput"/>
+            <button onclick="potato()">Predict Potato Disease</button>
+            <h1 style="color: black;"    id="potatoResult"></h1>
+            </div>
+        </td>
+   </tr>
+        <tr> 
+         <td>   <div class="container"> 
+            <h2>UPLOAD BANANA</h2>
+          <img width="200px" src="https://cdn4.volusion.store/uyqbk-sezkn/v/vspfiles/photos/FRUBAN-FRU-S-TX-STAR-2.jpg?v-cache=1686030121" alt="">
+            <input type="file" id="bananaInput"/>
+            <button onclick="banana()">Predict banana Disease</button>
+            <h1 style="color: black;"    id="bananaResult"></h1>
+            </div>
+        </td>
+            <td>   <div class="container"> 
+                <h2>UPLOAD CORN</h2>
+              <img width="200px" src="https://bonnieplants.com/cdn/shop/articles/BONNIE-PLANTS_corn-iStock-857670630-2400px_1ce4b5df-20b7-433c-acde-8703235c66be.jpg?v=1642542000&width=1000" alt="">
+                <input type="file" id="cornInput"/>
+                <button onclick="corn()">Predict corn Disease</button>
+                <h1 style="color: black;"    id="cornResult"></h1>
+                </div>
+            </td></tr>
+  </table>
+
+ 
+
+
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>
